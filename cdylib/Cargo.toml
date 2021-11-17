@@ -1,0 +1,10 @@
+[package]
+name = "superlist_dylib"
+version = "0.1.0"
+authors = ["Superlist"]
+edition = "2018"
+
+[lib]
+name = "superlist"
+path = "dylib.rs"
+crate-type = ["cdylib"]

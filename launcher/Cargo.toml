@@ -1,0 +1,13 @@
+[package]
+name = "superlist"
+version = "0.1.0"
+authors = ["Superlist"]
+edition = "2018"
+default-run = "superlist"
+
+[[bin]]
+name = "superlist"
+path = "superlist.rs"
+
+[dependencies]
+superlist_dylib = { path = "../cdylib" }

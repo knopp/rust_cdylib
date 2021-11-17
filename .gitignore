@@ -1,0 +1,12 @@
+/target
+/build_test/project1/target
+/build_test/project2/target
+.dart_tool
+.cache
+.DS_Store
+.packages
+build
+Cargo.lock
+pubspec.lock
+.flutter-plugins
+.flutter-plugins-dependencies
